@@ -12,7 +12,7 @@ tiposbuckup() {
     
     echo "                                        "
     echo "                                        "
-    
+   
     read -p "Seleccione una opcion del menu: " opcion
 
 case $opcion in 
@@ -30,6 +30,8 @@ case $opcion in
 
     4)break ;;
         *)echo "saliendo al menu principal"; sleep 1 ;; 
+
+    4)break ;; 
         
 
 

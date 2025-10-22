@@ -1,4 +1,5 @@
 #!/bin/bash 
+
 while true; do 
 
 crud_directorios() {
@@ -9,10 +10,12 @@ crud_directorios() {
     echo "2 .Eliminar directorio"
     echo "3 .Listar directorios"
     echo "4 .Modificar directorios"   
-   
+
     echo "                                        "
     read -p "Seleccione una opcion del menu: " opcion
     echo "                                        "
+
+    read -p "Seleccione una opcion del menu: " opcion
 
 case $opcion in 
     1)

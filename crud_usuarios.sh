@@ -14,6 +14,9 @@ crud_usuarios() {
     read -p "Seleccione una opcion del menu: " opcion
     echo "                                        "
 
+   
+    read -p "Seleccione una opcion del menu: " opcion
+
 case $opcion in 
     1)
         source ./useradd.sh
@@ -36,9 +39,14 @@ case $opcion in
     5)break ;;
        *)echo "saliendo al menu principal"; sleep 1
     ;;
+    5)break ;; 
         
 
 
 esac
 
 }
+
+while true; do
+crud_ususarios
+done

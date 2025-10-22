@@ -15,7 +15,7 @@ menu_add() {
     
     echo "                                        "
     echo "                                        "
-    
+
     read -p "Seleccione una opcion del menu: " opcion
 
 case $opcion in 
