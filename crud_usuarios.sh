@@ -11,7 +11,6 @@ crud_usuarios() {
     echo "4 .Modificar usuarios"   
    
     echo "                                        "
-    read -p "Seleccione una opcion del menu: " opcion
     echo "                                        "
 
    

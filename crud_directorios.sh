@@ -12,7 +12,6 @@ crud_directorios() {
     echo "4 .Modificar directorios"   
 
     echo "                                        "
-    read -p "Seleccione una opcion del menu: " opcion
     echo "                                        "
 
     read -p "Seleccione una opcion del menu: " opcion
