@@ -1,4 +1,5 @@
 #!/bin/bash
+while true; do 
 
 crud_usuarios() {
     echo "                                                         "
@@ -9,6 +10,9 @@ crud_usuarios() {
     echo "3 .Eliminar usuarios"
     echo "4 .Modificar usuarios"   
    
+    echo "                                        "
+    echo "                                        "
+
    
     read -p "Seleccione una opcion del menu: " opcion
 
@@ -31,6 +35,9 @@ case $opcion in
     
     
     
+    5)break ;;
+       *)echo "saliendo al menu principal"; sleep 1
+    ;;
     5)break ;; 
         
 
@@ -38,6 +45,7 @@ case $opcion in
 esac
 
 }
+
 while true; do
 crud_ususarios
 done

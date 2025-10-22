@@ -12,8 +12,10 @@ menu_add() {
     echo "6 .Ver log del sistema y backups"
     echo "7 .Ver configuraciones activas"
     echo "8 .Salir del menu"   
-   
-   
+    
+    echo "                                        "
+    echo "                                        "
+
     read -p "Seleccione una opcion del menu: " opcion
 
 case $opcion in 

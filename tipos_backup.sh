@@ -1,4 +1,5 @@
 #!/bin/bash
+while true; do
 
 tiposbuckup() {
     echo "                                                         "
@@ -8,7 +9,9 @@ tiposbuckup() {
     echo "2 .Respaldo de red"
     echo "3 .Respaldo en la nube"
     echo "4 .Salir del menu"   
-   
+    
+    echo "                                        "
+    echo "                                        "
    
     read -p "Seleccione una opcion del menu: " opcion
 
@@ -24,6 +27,9 @@ case $opcion in
     3)
         source ./respaldo_nube.sh
     ;;
+
+    4)break ;;
+        *)echo "saliendo al menu principal"; sleep 1 ;; 
 
     4)break ;; 
         
