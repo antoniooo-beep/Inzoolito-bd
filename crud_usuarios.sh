@@ -46,6 +46,4 @@ esac
 
 }
 
-while true; do
-crud_ususarios
-done
+
