@@ -38,7 +38,5 @@ case $opcion in
 esac
 
 }
-while true; do
-tiposbuckup
-done
+
 
