@@ -38,8 +38,9 @@ esac
 
 }
 while true; do 
-tipos_backup
+tipos_backup()
 done
+
 
 
 
