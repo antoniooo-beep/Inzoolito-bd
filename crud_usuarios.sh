@@ -37,7 +37,7 @@ case $opcion in
     5)break ;;
        *)echo "saliendo al menu principal"; sleep 1
     ;;
-    5)break ;; 
+    
         
 
 

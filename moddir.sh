@@ -13,15 +13,6 @@ modificar_directorio(){
             echo "1. Cambiar el nombre del directorio"
             echo "2. Mover el directorio a otra ubicación"
             echo "                                        "
-
-        read -p "Ingresa la ruta del directorio a modificar: " ruta
-        read -p "Ingresa el nombre del directorio a modificar: " nombre
-
-        if [ -d "$ruta/$nombre" ]; then
-            echo "¿Qué deseas modificar?"
-            echo "1. Cambiar el nombre del directorio"
-            echo "2. Mover el directorio a otra ubicación"
-
             read -p "Selecciona una opción: " opcion
 
             case $opcion in 

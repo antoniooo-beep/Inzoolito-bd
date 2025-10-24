@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tiposbuckup() {
+tipos_backup() {
     echo "                                                         "
     echo "                                                         "
     echo "---- Tipos de backups ----"
@@ -30,7 +30,7 @@ case $opcion in
     4)break ;;
         *)echo "saliendo al menu principal"; sleep 1 ;; 
 
-    4)break ;; 
+    
         
 
 
