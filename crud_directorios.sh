@@ -1,6 +1,5 @@
 #!/bin/bash 
 
-while true; do crud_directorios; 
 crud_directorios() {
     echo "                                                         "
     echo "                                                         "
@@ -31,15 +30,14 @@ case $opcion in
     4)
         source ./moddir.sh
     ;;
-    
-    
-    
-    5)break ;; 
-        *)echo "saliendo al menu principal"; sleep 1 ;;
+
+    5) echo "Volviendo al menú principal..."; sleep 1; ./menu.sh ;;
+
         
 
 
 esac
 
 }
-done
+while true; do crud_directorios; done
+

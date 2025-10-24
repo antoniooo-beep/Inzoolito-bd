@@ -1,5 +1,4 @@
 #!/bin/bash
-while true; do crud_backup; 
 crud_usuarios() {
     echo "                                                         "
     echo "                                                         "
@@ -32,11 +31,8 @@ case $opcion in
         source ./usermod.sh
     ;;
     
-    
-    
-    5)break ;;
-       *)echo "saliendo al menu principal"; sleep 1
-    ;;
+    5) echo "Volviendo al menú principal..."; sleep 1; ./menu.sh ;;
+
     
         
 
@@ -44,4 +40,5 @@ case $opcion in
 esac
 
 }
-done
+while true; do crud_usuarios; done
+

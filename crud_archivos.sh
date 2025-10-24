@@ -1,6 +1,5 @@
 #!/bin/bash 
 
-while true; do crud_archivos; 
 crud_archivos() {
     echo "                                                         "
     echo "                                                         "
@@ -32,14 +31,11 @@ case $opcion in
         source ./modarchiv.sh
     ;;
     
-    
-    
-    5)break ;; 
-        *)echo "saliendo al menu principal"; sleep 1 ;;
+    5) echo "Volviendo al menú principal..."; sleep 1; ./menu.sh ;;
         
 
 
 esac
 
 }
-done
+while true; do crud_archivos; done
