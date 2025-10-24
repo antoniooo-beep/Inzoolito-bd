@@ -1,5 +1,5 @@
 #!/bin/bash
-
+while true; do
 crud_usuarios() {
     echo "                                                         "
     echo "                                                         "
@@ -44,5 +44,4 @@ case $opcion in
 esac
 
 }
-while true; do crud_usuarios; done
-
+done

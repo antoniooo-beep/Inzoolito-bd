@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-
+while true; do
 crud_archivos() {
     echo "                                                         "
     echo "                                                         "
@@ -42,4 +42,4 @@ case $opcion in
 esac
 
 }
-while true; do crud_archivos; done
+done
