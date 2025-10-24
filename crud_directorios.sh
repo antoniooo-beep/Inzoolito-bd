@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-while true; crud_directorios; do
+while true; do crud_directorios; 
 crud_directorios() {
     echo "                                                         "
     echo "                                                         "
