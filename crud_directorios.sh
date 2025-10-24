@@ -1,6 +1,5 @@
 #!/bin/bash 
 
-while true; do 
 
 crud_directorios() {
     echo "                                                         "
@@ -43,3 +42,6 @@ case $opcion in
 esac
 
 }
+while true; do 
+crud_directorios
+done
