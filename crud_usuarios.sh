@@ -1,5 +1,5 @@
 #!/bin/bash
-while true; do
+while true; crud_usuarios; do
 crud_usuarios() {
     echo "                                                         "
     echo "                                                         "
