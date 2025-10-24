@@ -1,5 +1,4 @@
 #!/bin/bash
-while true; do crud_archivos; 
 tipos_backup() {
     echo "                                                         "
     echo "                                                         "
@@ -27,8 +26,8 @@ case $opcion in
         source ./respaldo_nube.sh
     ;;
 
-    4)break ;;
-        *)echo "saliendo al menu principal"; sleep 1 ;; 
+    5) echo "Volviendo al menú principal..."; sleep 1; ./menu.sh ;;
+ 
 
     
         
@@ -37,7 +36,8 @@ case $opcion in
 esac
 
 }
-done
+while true; do tipos_backup; done
+
 
 
 
