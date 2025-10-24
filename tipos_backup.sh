@@ -1,5 +1,4 @@
 #!/bin/bash
-while true; do
 
 tiposbuckup() {
     echo "                                                         "
@@ -38,5 +37,9 @@ case $opcion in
 esac
 
 }
+while true; do 
+tipos_backup
+done
+
 
 
