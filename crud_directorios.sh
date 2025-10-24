@@ -8,6 +8,7 @@ crud_directorios() {
     echo "2 .Eliminar directorio"
     echo "3 .Listar directorios"
     echo "4 .Modificar directorios"   
+    echo "5 .Salir al menu principal"
 
     echo "                                        "
     echo "                                        "

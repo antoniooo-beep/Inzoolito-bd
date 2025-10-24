@@ -6,7 +6,7 @@ tipos_backup() {
     echo "1 .Respaldo local"
     echo "2 .Respaldo de red"
     echo "3 .Respaldo en la nube"
-    echo "4 .Salir del menu"   
+    echo "4 .Salir al menu principal"
     
     echo "                                        "
     echo "                                        "
@@ -26,7 +26,7 @@ case $opcion in
         source ./respaldo_nube.sh
     ;;
 
-    5) echo "Volviendo al menú principal..."; sleep 1; ./menu.sh ;;
+    4) echo "Volviendo al menú principal..."; sleep 1; ./menu.sh ;;
  
 
     

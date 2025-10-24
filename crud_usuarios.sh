@@ -7,6 +7,7 @@ crud_usuarios() {
     echo "2 .Listar usuarios"
     echo "3 .Eliminar usuarios"
     echo "4 .Modificar usuarios"   
+    echo "5 .Salir al menu principal"
    
     echo "                                        "
     echo "                                        "
