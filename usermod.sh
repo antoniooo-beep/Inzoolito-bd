@@ -11,9 +11,6 @@
             echo "2. cambiar el directorio de inicio"
             echo "3. cambiar el shell predeterminado"
             echo "                                        "
-            echo "1. cambiar el nombre del usuario"
-            echo "2. cambiar el directorio de inicio"
-            echo "3. cambiar el shell predeterminado"
             read -p "selecciona una sola opcion" opcion
 
             case $opcion in 
