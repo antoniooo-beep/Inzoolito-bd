@@ -42,6 +42,4 @@ case $opcion in
 esac
 
 }
-while true; do 
-crud_directorios()
-done
+while true; do crud_directorios; done

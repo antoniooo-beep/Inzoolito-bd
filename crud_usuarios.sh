@@ -44,7 +44,5 @@ case $opcion in
 esac
 
 }
-while true; do 
-crud_usuarios()
-done
+while true; do crud_usuarios; done
 
