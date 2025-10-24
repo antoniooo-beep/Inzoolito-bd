@@ -8,6 +8,7 @@ crud_archivos() {
     echo "2 .Eliminar archivo"
     echo "3 .Listar archivos"
     echo "4 .Modificar archivos"   
+    echo "5 .Salir al menu principal"
 
     echo "                                        "
     echo "                                        "
