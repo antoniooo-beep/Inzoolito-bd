@@ -1,5 +1,5 @@
 #!/bin/bash
-while true; do
+while true; tipos_backup; do
 tipos_backup() {
     echo "                                                         "
     echo "                                                         "

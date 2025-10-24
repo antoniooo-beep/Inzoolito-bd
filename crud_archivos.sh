@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-while true; do
+while true; crud_archivos; do
 crud_archivos() {
     echo "                                                         "
     echo "                                                         "
