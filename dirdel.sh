@@ -1,17 +1,6 @@
 #!/bin/bash
 
 eliminar_directorio(){
-        echo "                                        "
-        read -p "Ingresa la ruta del directorio a eliminar: " ruta
-        echo "                                        "
-        read -p "Ingresa el nombre del directorio a eliminar: " nombre
-        if [ -d "$ruta/$nombre" ]; then
-            sudo rm -r "$ruta/$nombre"
-            echo "                                        "
-            echo "Directorio $nombre eliminado de $ruta correctamente."
-        else
-            echo "                                        "
-
         read -p "Ingresa la ruta del directorio a eliminar: " ruta
         read -p "Ingresa el nombre del directorio a eliminar: " nombre
         if [ -d "$ruta/$nombre" ]; then

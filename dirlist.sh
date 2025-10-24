@@ -7,10 +7,6 @@ listar_directorios(){
             echo "Contenido del directorio $ruta:"
             ls -l "$ruta"
         else
-            echo "                                        "
-            echo "Contenido del directorio $ruta:"
-            ls -l "$ruta"
-        else
             echo "El directorio $ruta no existe."
         fi  
     }   
