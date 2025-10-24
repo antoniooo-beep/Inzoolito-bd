@@ -1,5 +1,5 @@
 #!/bin/bash
-while true; tipos_backup; do
+while true; do crud_archivos; 
 tipos_backup() {
     echo "                                                         "
     echo "                                                         "
