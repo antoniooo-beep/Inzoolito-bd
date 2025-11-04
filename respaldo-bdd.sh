@@ -1,9 +1,9 @@
 #!/bin/bash
 
-backup_dbs="Segundaentrega.sql"
+backup_dbs="Segundaentrega"
 
 # Where to backup to.
-dest="/respaldos"
+dest="/home/tony/respaldos"
 
 # Create archive filename.
 day=$(date +%A)
