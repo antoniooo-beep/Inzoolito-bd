@@ -9,7 +9,7 @@ tipos_backup() {
    
     
     echo "                                        "
-    echo "                                        "
+    echo "                                         "
    
     read -p "Seleccione una opcion del menu: " opcion
 
