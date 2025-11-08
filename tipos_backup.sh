@@ -3,10 +3,10 @@ tipos_backup() {
     echo "                                                         "
     echo "                                                         "
     echo "---- Tipos de backups ----"
-    echo "1 .Respaldo local"
-    echo "2 .Respaldo de red"
-    echo "3 .Respaldo en la nube"
-    echo "4 .Salir al menu principal"
+    echo "1 .Respaldo base de datos"
+    echo "2 .Respaldo del programa"
+    echo "3 .salit al menu principal"
+   
     
     echo "                                        "
     echo "                                        "
@@ -15,18 +15,17 @@ tipos_backup() {
 
 case $opcion in 
     1)
-        source ./respaldo_local.sh
+        source ./respaldo-bdd.sh
     ;;
 
     2)
-        source ./respaldo_red.sh
+        source ./respaldo-programa.sh
     ;;
 
-    3)
-        source ./respaldo_nube.sh
-    ;;
+    3) echo "Volviendo al menú principal..."; sleep 1; ./menu.sh ;;
 
-    4) echo "Volviendo al menú principal..."; sleep 1; ./menu.sh ;;
+
+    
  
 
     
