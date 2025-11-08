@@ -5,11 +5,11 @@ tipos_backup() {
     echo "---- Tipos de backups ----"
     echo "1 .Respaldo base de datos"
     echo "2 .Respaldo del programa"
-    echo "3 .salit al menu principal"
+    echo "3 .salir al menu principal"
    
     
     echo "                                        "
-    echo "                                        "
+    echo "                                         "
    
     read -p "Seleccione una opcion del menu: " opcion
 
@@ -22,7 +22,7 @@ case $opcion in
         source ./respaldo-programa.sh
     ;;
 
-    3) echo "Volviendo al menú principal..."; sleep 1; ./menu.sh ;;
+    3) echo "Volviendo al menú principal..."; sleep 1; /home/tony/menu.sh ;;
 
 
     
