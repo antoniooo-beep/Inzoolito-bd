@@ -3,8 +3,8 @@ tipos_backup() {
     echo "                                                         "
     echo "                                                         "
     echo "---- Tipos de backups ----"
-    echo "1 .Respaldo base de datos"
-    echo "2 .Respaldo del programa"
+    echo "1 .Respaldo base de datos local"
+    echo "2 .Respaldo del programa local"                      
     echo "3 .salir al menu principal"
    
     
