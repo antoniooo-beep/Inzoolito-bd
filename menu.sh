@@ -8,10 +8,8 @@ menu_add() {
     echo "2 .Opciones de archivos"
     echo "3 .Opciones de usuarios"
     echo "4 .Opciones de backup"
-    echo "5 .Opciones de restauracion de servicio"
-    echo "6 .Ver log del sistema y backups"
-    echo "7 .Ver configuraciones activas"
-    echo "8 .Salir del menu"   
+    echo "5 .Ver log del sistema y backups"
+    echo "6 .Salir del menu"   
     
     echo "                                        "
     echo "                                        "
@@ -35,6 +33,10 @@ case $opcion in
         source ./tipos_backup.sh
     ;;
 
+    5)
+        source ./log.sh
+    ;;
+    
     8)
         echo "Saliendo del sistema..."
         sleep 1
