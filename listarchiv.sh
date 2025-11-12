@@ -13,4 +13,4 @@ listarchiv(){
             echo "La ruta $ruta no existe."
         fi  
     }
-listarchiv()
+listarchiv
