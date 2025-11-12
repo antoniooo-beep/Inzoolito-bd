@@ -21,4 +21,4 @@ delarchiv(){
             echo "El archivo $nombre no existe en $ruta."
         fi  
     }
-delarchiv()
+delarchiv

@@ -35,4 +35,4 @@ modarchiv(){
             echo "El archivo $nombre no existe en $ruta."
         fi  
     }
-modarchiv()
+modarchiv
