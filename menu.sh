@@ -37,7 +37,7 @@ case $opcion in
         source ./log.sh
     ;;
     
-    8)
+    6)
         echo "Saliendo del sistema..."
         sleep 1
         clear

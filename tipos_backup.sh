@@ -4,8 +4,9 @@ tipos_backup() {
     echo "                                                         "
     echo "---- Tipos de backups ----"
     echo "1 .Respaldo base de datos local"
-    echo "2 .Respaldo del programa local"                      
-    echo "3 .salir al menu principal"
+    echo "2 .Respaldo del programa local"
+    echo "3 .Respaldo de repositorio GitHub"                      
+    echo "4 .salir al menu principal"
    
     
     echo "                                        "
@@ -22,7 +23,11 @@ case $opcion in
         source ./respaldo-programa.sh
     ;;
 
-    3) echo "Volviendo al menú principal..."; sleep 1; /home/tony/menu.sh ;;
+    3)
+        source ./respaldo-github.sh
+    ;;
+    
+    4) echo "Volviendo al menú principal..."; sleep 1; /home/tony/menu.sh ;;
 
 
     
