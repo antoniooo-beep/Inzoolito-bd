@@ -7,7 +7,7 @@ user_add() {
     echo
     read -p " Ingresa el nombre del nuevo usuario: " usuario
 
-    sudo adduser -m "$usuario"
+    sudo useradd -m "$usuario"
     
     sudo passwd "$usuario"
 
